@@ -1,0 +1,4 @@
+/* App-level styles — minimal; page styles live in toolspage.css */
+.app {
+  min-height: 100vh;
+}
