@@ -98,14 +98,32 @@
 .hero-title {
   margin: 0 0 0.5rem;
   font-size: clamp(1.75rem, 5vw, 2.75rem);
-  font-weight: 600;
+  font-weight: 60;
   line-height: 1.2;
   letter-spacing: -0.03em;
   color: var(--text);
 }
 
 .hero-title-gradient {
-  color: var(--text);
+background: linear-gradient(
+    to right, 
+    red, 
+    orange, 
+    yellow, 
+    green, 
+    blue, 
+    indigo, 
+    violet
+  );
+  /* Clip the background to the text shape */
+  -webkit-background-clip: text;
+  background-clip: text;
+  /* Make the text transparent so the background shows through */
+  -webkit-text-fill-color: transparent;
+  color: transparent; /* Fallback for browsers that don't support -webkit-text-fill-color */
+  /* Optional: Add font styling */
+  font-size: 100px;
+  font-weight: 70;
 }
 
 .hero-subtext {
