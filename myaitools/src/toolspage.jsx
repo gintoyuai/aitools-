@@ -33,6 +33,59 @@ const TOOLS_DATA = [
   { name: 'Todoist', category: 'AI + Productivity', url: 'https://todoist.com', domain: 'todoist.com', description: 'Tasks and projects with smart scheduling' },
   { name: 'Otter.ai', category: 'AI + Productivity', url: 'https://otter.ai', domain: 'otter.ai', description: 'Meeting notes and transcription with AI' },
   { name: 'Gamma', category: 'AI + Productivity', url: 'https://gamma.app', domain: 'gamma.app', description: 'Create presentations and docs with AI' },
+
+  // AI + Code
+  { name: 'v0', category: 'AI + Code', url: 'https://v0.dev', domain: 'v0.dev', description: 'Generate React UI components from text with Vercel AI' },
+  { name: 'Codeium', category: 'AI + Code', url: 'https://codeium.com', domain: 'codeium.com', description: 'Free AI code autocomplete and chat for any IDE' },
+  { name: 'Tabnine', category: 'AI + Code', url: 'https://tabnine.com', domain: 'tabnine.com', description: 'Privacy-focused AI code completion for teams' },
+  { name: 'Bolt', category: 'AI + Code', url: 'https://bolt.new', domain: 'bolt.new', description: 'Full-stack app builder in the browser powered by AI' },
+  { name: 'Lovable', category: 'AI + Code', url: 'https://lovable.dev', domain: 'lovable.dev', description: 'Build and ship full-stack web apps by chatting with AI' },
+  { name: 'Devin', category: 'AI + Code', url: 'https://devin.ai', domain: 'devin.ai', description: 'Autonomous AI software engineer for complex coding tasks' },
+  { name: 'Windsurf', category: 'AI + Code', url: 'https://codeium.com/windsurf', domain: 'codeium.com', description: 'Agentic AI IDE that takes multi-step actions in your codebase' },
+
+  // AI + Design
+  { name: 'Adobe Firefly', category: 'AI + Design', url: 'https://firefly.adobe.com', domain: 'adobe.com', description: 'Generative AI for images and text effects inside Adobe apps' },
+  { name: 'Ideogram', category: 'AI + Design', url: 'https://ideogram.ai', domain: 'ideogram.ai', description: 'AI image generation with accurate text rendering' },
+  { name: 'Recraft', category: 'AI + Design', url: 'https://recraft.ai', domain: 'recraft.ai', description: 'Generate and edit vector art, icons and brand assets with AI' },
+  { name: 'Kling AI', category: 'AI + Design', url: 'https://klingai.com', domain: 'klingai.com', description: 'High-quality AI image and video generation from Kuaishou' },
+  { name: 'Framer AI', category: 'AI + Design', url: 'https://framer.com', domain: 'framer.com', description: 'Generate and publish websites with AI in Framer' },
+
+  // AI + Video
+  { name: 'Sora', category: 'AI + Video', url: 'https://sora.com', domain: 'openai.com', description: 'OpenAI text-to-video model for cinematic AI clips' },
+  { name: 'HeyGen', category: 'AI + Video', url: 'https://heygen.com', domain: 'heygen.com', description: 'AI video generation with talking avatars and voice cloning' },
+  { name: 'Luma Dream Machine', category: 'AI + Video', url: 'https://lumalabs.ai', domain: 'lumalabs.ai', description: 'Realistic AI video generation from text and images' },
+  { name: 'Descript', category: 'AI + Video', url: 'https://descript.com', domain: 'descript.com', description: 'Edit video and podcasts by editing the transcript with AI' },
+  { name: 'Captions', category: 'AI + Video', url: 'https://captions.ai', domain: 'captions.ai', description: 'AI-powered video creation and auto-captioning for creators' },
+
+  // AI + Marketing
+  { name: 'Perplexity', category: 'AI + Marketing', url: 'https://perplexity.ai', domain: 'perplexity.ai', description: 'AI search engine for real-time research and market insights' },
+  { name: 'AdCreative.ai', category: 'AI + Marketing', url: 'https://adcreative.ai', domain: 'adcreative.ai', description: 'Generate conversion-focused ad creatives with AI' },
+  { name: 'Instantly AI', category: 'AI + Marketing', url: 'https://instantly.ai', domain: 'instantly.ai', description: 'AI-powered cold email outreach and lead generation' },
+
+  // AI + Audio
+  { name: 'ElevenLabs', category: 'AI + Audio', url: 'https://elevenlabs.io', domain: 'elevenlabs.io', description: 'Ultra-realistic AI voice cloning and text-to-speech' },
+  { name: 'Suno', category: 'AI + Audio', url: 'https://suno.com', domain: 'suno.com', description: 'Generate full songs with vocals and music from a text prompt' },
+  { name: 'Udio', category: 'AI + Audio', url: 'https://udio.com', domain: 'udio.com', description: 'Create original music tracks with AI from text descriptions' },
+  { name: 'Whisper', category: 'AI + Audio', url: 'https://openai.com/research/whisper', domain: 'openai.com', description: 'OpenAI speech recognition for accurate audio transcription' },
+  { name: 'Cleanvoice AI', category: 'AI + Audio', url: 'https://cleanvoice.ai', domain: 'cleanvoice.ai', description: 'Remove filler words and silences from podcast recordings' },
+
+  // AI + Productivity
+  { name: 'Gemini', category: 'AI + Productivity', url: 'https://gemini.google.com', domain: 'google.com', description: 'Google AI assistant integrated with Workspace and search' },
+  { name: 'Microsoft Copilot', category: 'AI + Productivity', url: 'https://copilot.microsoft.com', domain: 'microsoft.com', description: 'AI assistant built into Windows, Office and Edge' },
+  { name: 'Mem', category: 'AI + Productivity', url: 'https://mem.ai', domain: 'mem.ai', description: 'AI-powered notes that self-organize and surface insights' },
+  { name: 'Reclaim AI', category: 'AI + Productivity', url: 'https://reclaim.ai', domain: 'reclaim.ai', description: 'Smart calendar scheduling and time blocking with AI' },
+  { name: 'Zapier AI', category: 'AI + Productivity', url: 'https://zapier.com', domain: 'zapier.com', description: 'Automate workflows across 6,000+ apps with AI actions' },
+
+  // AI + Study
+  { name: 'Khanmigo', category: 'AI + Study', url: 'https://khanacademy.org/khanmigo', domain: 'khanacademy.org', description: 'AI tutor by Khan Academy for guided learning and practice' },
+  { name: 'Elicit', category: 'AI + Study', url: 'https://elicit.com', domain: 'elicit.com', description: 'AI research assistant for summarizing academic papers' },
+  { name: 'Consensus', category: 'AI + Study', url: 'https://consensus.app', domain: 'consensus.app', description: 'Search and extract findings from scientific research with AI' },
+  { name: 'NotebookLM', category: 'AI + Study', url: 'https://notebooklm.google.com', domain: 'google.com', description: 'AI notebook that answers questions about your uploaded sources' },
+
+  // AI + Research
+  { name: 'Perplexity Pro', category: 'AI + Research', url: 'https://perplexity.ai', domain: 'perplexity.ai', description: 'Deep research mode with cited, real-time web answers' },
+  { name: 'You.com', category: 'AI + Research', url: 'https://you.com', domain: 'you.com', description: 'AI search with research mode, code execution and chat' },
+  { name: 'Tavily', category: 'AI + Research', url: 'https://tavily.com', domain: 'tavily.com', description: 'AI-optimized search API for agents and research workflows' },
 ]
 
 /** Local logos in public/logos (run: npm run download-logos) */
@@ -183,14 +236,14 @@ function loadOpenSections() {
       }
       return out
     }
-  } catch (_) {}
+  } catch (_) { }
   return null
 }
 
 function saveOpenSections(state) {
   try {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(state))
-  } catch (_) {}
+  } catch (_) { }
 }
 
 export default function Toolspage() {
